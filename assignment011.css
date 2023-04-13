@@ -1,0 +1,65 @@
+:root{
+    --btnbg: #f9903a;
+    --btnbghover: #fc873f;
+    --tblhead: #ECF2FF;
+    --eventbldata: #DDDDDD;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.buttons{
+    background-color: var(--btnbg);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: var(--btnbghover);
+}
+table, th, td{
+    border: 3px solid grey;
+    border-collapse: collapse;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: var(--tblhead);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+tr:nth-child(even){
+    background-color: var(--eventbldata);
+}
+td{
+    padding: 0px 5px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+.check_box{
+    height: 20px;
+    width: 20px;
+}
+.search_bar{
+    margin-left: 443px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+}
