@@ -12,11 +12,14 @@ fetch("https://6434f30f83a30bc9ad545d2d.mockapi.io/mockdata").then((data)=>{
             <td>${value.createdAt}</td>
             <td>${value.name}</td>
             <td><img src='${value.avatar}'/></td>
-            <td><button class="buttons" id="deletebtn" onclick="ondelete()">DELETE</button></td>
         </tr>`;
     })
     document.getElementById("tblbdy").innerHTML=tbleData
 })
+
+
+// {/* <td><button class="buttons" id="deletebtn" onclick="ondelete()">DELETE</button></td> */}
+
 // Catch statement.
 .catch((err)=>{
     console.log(err);
